@@ -47,7 +47,7 @@
   display: flex;
   }
   
-  .main-section{
+  .main-section-about{
     background-color: white;
     display: grid;
     grid-area: main;

@@ -1,10 +1,11 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
 
+  
 .container{
     display: grid;
     grid-template: 
@@ -13,7 +14,6 @@
     'footer-section footer-section' 50px/
      auto  1fr ;
 }
-
 .header{
     color: aliceblue;
     background-color: black;
@@ -46,37 +46,15 @@ ul{
 list-style-type: none;
 display: flex;
 }
-
-.main-section{
+.main-section-skills{
     height: 600px;
     background-color: gray;
     display: grid;
     grid-area: main;
-    grid-template-columns:auto 1fr ;
     align-items: center;
     padding: 1rem 1rem;
+    justify-content: center;
 }
-.left-main{
-    display: grid;
-    margin-left: 50px;
-}
-.name{
-    color: rgb(0, 255, 123);
-}
-
-   .contact a{
-       text-decoration: none;
-       color: rgb(0, 255, 123);
-   }
-   .right-main{
-       display: grid;
-     }
-     .image{
-    display: grid;
-   width: fit-content;
-     }
-
-
 .footer-section{
     display: grid;
     grid-area: footer-section;
@@ -89,19 +67,3 @@ footer p{
     margin-left: 600px;
    margin-top: 15px;
 }
-
-@media screen and (max-width: 600px) {
-    .container{
-        grid-template: 
-        'header header'auto
-        'left-main right-main' 1fr
-        auto 1fr;
-    }
-        .footer-section{
-            display: none;
-        }
-        
-        .image{
-            width: 10%;
-        }
-    }

@@ -48,13 +48,18 @@ ul {
 }
 
 .main-section-about {
+  color: aliceblue;
   background-color: white;
   display: grid;
   grid-area: main;
   align-items: center;
   padding: 1rem 1rem;
   gap: 2rem;
-  margin: 1rem 5rem 1rem 5rem;
+  
+  background: rgba(0, 0, 0, 0.7)
+    url(https://images.pexels.com/photos/3184436/pexels-photo-3184436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-blend-mode: darken;
 }
 .footer-section {
   display: grid;
@@ -65,7 +70,7 @@ ul {
   text-align: center;
 }
 footer p {
-  margin-left: 600px;
+  text-align: center;
   margin-top: 15px;
 }
 @media screen and (max-width: 675px) {

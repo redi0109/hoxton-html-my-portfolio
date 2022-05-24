@@ -35,6 +35,7 @@
   display: grid;
 }
 
+
 .right-header {
   display: grid;
   grid-auto-flow: column;

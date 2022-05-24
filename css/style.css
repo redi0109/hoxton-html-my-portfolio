@@ -30,6 +30,8 @@
     color: aliceblue;
   }
 
+
+
 .left-header{
     margin-left: 5vw;
 display: grid;
@@ -47,22 +49,26 @@ list-style-type: none;
 display: flex;
 }
 
-.main-section{
+main{
     height: 600px;
-    background-color: gray;
+background: rgba(0,0,0,0.7) url(https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-size:cover ;
+background-blend-mode: darken;
+
     display: grid;
     grid-area: main;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
     justify-items: center;
+    color: azure;
+  }
 
-}
-.main{
-    display: grid;
+  .left-main{
+    margin-left: 5vw;
+  }
 
-}
 .name{
-    color: rgb(0, 255, 123);
+    color: #00ff7b;
 }
 
    .contact a{

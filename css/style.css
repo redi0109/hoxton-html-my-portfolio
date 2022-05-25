@@ -30,6 +30,12 @@
   color: aliceblue;
 }
 
+.header a:hover{
+  color: #00ff7b;
+}
+
+
+
 .left-header {
   margin-left: 5vw;
   display: grid;
